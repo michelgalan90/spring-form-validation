@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${titulo}">Viendo el resultado</title>
+</head>
+<body>
+    <h2>Viendo el resultado</h2>
+    <ul>
+        <li th:text="${cliente.identificacion}"></li>
+        <li th:text="${cliente.nombre}"></li>
+        <li th:text="${cliente.apellido}"></li>
+        <li th:text="${cliente.edad}"></li>
+        <li th:text="${cliente.email}"></li>
+    </ul>
+
+</body>
+</html>
